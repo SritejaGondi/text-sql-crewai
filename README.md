@@ -19,10 +19,12 @@ streamlit run sqlcodeagent.py
 - Together AI Platform
   - Llama 3.2 11B VLM
   - Llama 3.3 70 Instruct Turbo LLM
-  - Deepseek
+  - DeepSeek-R1-Distill-Llama-70B
 
-**Installation**
+**Installation & Configuration**
 - Install Crew AI and dependencies
+- AWS Access key & Secret Key for S3 bucket access
+- Supbase configuration for data storage to view in front end
 
 **Streamlit App**
 ```bash
